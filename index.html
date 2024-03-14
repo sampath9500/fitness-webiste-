@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fitness Plus+</title>
+ 
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap");
+
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    body {
+      font-family: "Nunito", sans-serif;
+      width: 100%;
+      color: #ffffffec;
+    }
+
+    a {
+      font-size: 20px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .flex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .header,
+    .section {
+      width: 100%;
+      height: 570px;
+      padding: 35px 0;
+      overflow: hidden;
+      background-image: url(images/background1.avif);
+      background-size: cover;
+    }
+
+    body {
+      position: sticky;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .mb {
+      margin-top: -20%;
+      font-size: 40px;
+    }
+
+    .c {
+      font-size: 25px;
+      font-weight: 700;
+      margin-bottom: -20%;
+      color: #ffffff;
+      margin-top: 1%;
+    }
+
+    .mt {
+      margin-top: 20px;
+      margin: 60px;
+    }
+
+    .section {
+      background: #1d1f1e;
+      padding: 80px 0px;
+      height: 350px;
+    }
+
+    .section:nth-child(even) {
+      background: #141615;
+    }
+
+    .primary {
+      font-size: 35px;
+
+      margin-bottom: -10%;
+    }
+
+    .secondary {
+      font-size: 25px;
+
+      margin-top: 15%;
+    }
+
+    .tertiary {
+      font-size: 25px;
+    }
+
+    .menu {
+      width: 100%;
+      background: linear-gradient(to right, black 50%, gray);
+      padding: 14px 0;
+      position: sticky;
+      top: 0px;
+    }
+
+    .menu .container {
+      justify-content: space-between;
+    }
+
+    .mobile-btn {
+      display: none;
+    }
+
+    .nav {
+      list-style: none;
+      padding: 22px;
+    }
+
+    .hi {
+      display: inline-block;
+      margin-right: 30px;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .hi a {
+      text-decoration: none;
+      color: #fff;
+
+      font-weight: 800;
+    }
+
+    .hi:hover a {
+      color: #fff;
+      text-shadow: 0px 0px 20px #ffffff, 0px 0px 60px #fff, 0px 0px 90px #fff;
+    }
+
+    .btn {
+      padding: 10px 28px;
+      border-radius: 40px;
+      margin-right: -10%;
+      font-size: 20px;
+      font-weight: 400;
+      text-decoration: none;
+      color: #fff;
+      display: inline-block;
+      border: 1px solid white;
+    }
+
+    .btn:hover {
+      background-color: black;
+      box-shadow: 0px 0px 20px white, 0px 0px 25px white, 0px 0px 30px white;
+    }
+
+    .text {
+      width: 60%;
+    }
+
+    .img {
+      width: 60%;
+      margin-right: 0%;
+    }
+
+    .img img {
+      width: 100%;
+    }
+
+    .img1 {
+      width: 90%;
+      display: flex;
+    }
+
+    .header h1 {
+      font-size: 60px;
+      font-weight: 900;
+
+    }
+    .p h1{
+      font-size: 43px;
+      margin-left: -20%;
+    }
+
+    
+
+    
+  </style>
+</head>
+
+<body>
+
+  <div class="menu">
+    <div class="container flex">
+
+      <div class="p">
+        <h1>Fitness Plus <span style="color: gray;">+</span></h1>
+      </div>
+      <ul class="nav">
+        <li class="hi"><a href="about.html">About</a></li>
+        <li class="hi"><a href="bmi.html">Calculate BMI</a></li>
+        <li class="hi"><a href="contact.html">Our Team</a></li>
+        <li class="hi"><a href="last.html">Contact Us</a></li>
+      </ul>
+      
+      <a href="register.html" class="btn">Register</a>
+    </div>
+  </div>
+  <header class="header" id="home">
+    <div class="container flex">
+      <div class="text">
+        <h1 class="mb">
+          Complete <span> Daily</span> <br>
+          <span>Workout</span> At Home.!
+        </h1><br>
+
+
+        <p class="c">
+          Your body is capable of amazing things. Keep challenging yourself and unlock your full potential on your
+          fitness journey. <br><span style="margin-left: 16%; font-size: 25px;">By Fitness Plus+</span>
+        </p>
+      </div>
+
+      <div class="hiiiii">
+        <img src="images/hiiiii.png">
+      </div>
+    </div>
+  </header>
+
+  <div class="section" id="explore">
+    <div class="container flex">
+      <div class="img1">
+
+        <video autoplay muted loop id="myVideo">
+          <source src="images/HI.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="text">
+        <h2 class=" mb">Explore Our Fitness <br> <img src="" alt="">Plus+</h2>
+        <a href="next2.html" class="btn mt">Diet Plans</a>
+        <a href="bmi.html" class="btn mt">Calculate BMI</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="why-us">
+    <div class="container flex">
+      <div class="text">
+        <h2 class="primary mb">Why Choose Us?</h2>
+        <p class="secondary mb">
+          The world needs people who can train and motivate others to lose weight, regain their cardiovascular vigor,
+          and build strength.
+        </p>
+
+
+      </div>
+      <div class="img">
+        <img src="images/yoga2.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+
+
+  <div class="section" id="why-us">
+    <div class="container flex">
+      <div class="text">
+
+        <h3 class="primary mb">Our advice</h3>
+        <p class="secondary mb">
+          Set achievable goals, engage with the community for support, and remember that balance in both exercise and
+          nutrition is key to a sustainable and healthy lifestyle.
+        </p>
+      </div>
+      <div class="img">
+        <img src="images/less-removebg-preview.png" alt=""/>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
